@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  box-shadow: 1px 2px 20px rgb(36, 40, 99);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow-x: auto;
+  flex-wrap: wrap;
+}
+.man {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(3, 3, 10);
+}
+.mode {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.item {
+  display: flex;
+  gap: 15px;
+}
+.item li {
+  list-style: none;
+}
+.item a {
+  text-decoration: none;
+  color: rgb(255, 81, 0);
+  font-weight: bolder;
+}
+.item a:hover {
+  color: whitesmoke;
+  background: linear-gradient(135deg, rgb(255, 81, 0), rgb(148, 72, 1));
+  padding: 6px;
+  border-radius: 4px;
+}
+.insta {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  padding-top: 8%;
+}
+.gram {
+  color: whitesmoke;
+  flex-basis: auto;
+}
+.foam {
+  background-image: url("coco.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+  flex-basis: 400px;
+  min-height: 400px;
+  border-radius: 20px;
+  box-shadow: -1px -2px 30px rgb(36, 40, 99);
+}
+.hello {
+  text-transform: uppercase;
+  color: #ff5100;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.tunmi {
+  margin-bottom: 10px;
+}
+span {
+  color: transparent;
+  background: linear-gradient(135deg, rgb(158, 63, 0), rgb(255, 82, 2));
+  -webkit-background-clip: text;
+}
+.web {
+  margin-bottom: 10px;
+}
+.small {
+  font-weight: bold;
+}
+.mall {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#download {
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: whitesmoke;
+  background: linear-gradient(135deg, rgb(2, 2, 184), rgb(94, 1, 94));
+  margin-top: 25px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+#download:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 2px 2px rgb(82, 0, 102));
+}
+#contact {
+  outline: none;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  border: white 1px solid;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+#contact:hover {
+  background-color: rgb(3, 3, 27);
+  cursor: pointer;
+}
+.bi-github {
+  font-size: 2rem;
+}
+.bi-youtube {
+  font-size: 2rem;
+  color: #ff0033;
+}
+.bi-instagram {
+  font-size: 2rem;
+  color: #d62976;
+}
+.bat {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 40px;
+}
+.bi-linkedin {
+  font-size: 2rem;
+  color: #0a66c2;
+}
+.bi-facebook {
+  font-size: 2rem;
+  color: #0a66c2;
+}
+.fa-x-twitter {
+  font-size: 2rem;
+  color: white;
+}
+.head {
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+#lone {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+label {
+  color: whitesmoke;
+  padding-top: 20px;
+}
+#name {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(172, 172, 172);
+}
+#email {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(172, 172, 172);
+  color: white;
+}
+#message {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(172, 172, 172);
+  color: white;
+}
+
+.smel {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loneee {
+  width:;
+}
+.ext {
+  display: flex;
+  flex-direction: column;
+}
+.poe {
+  color: white;
+}
