@@ -248,6 +248,7 @@ label {
   }
   .insta {
     padding: 0 20px;
+    gap: 40px;
   }
   
 }
