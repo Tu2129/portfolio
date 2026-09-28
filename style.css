@@ -22,7 +22,7 @@
 html {
   scroll-behavior: smooth;
 }
-.man {
+.page {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
@@ -301,7 +301,7 @@ label {
   width: 100%;
 }
 
-.smel {
+.info {
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -342,7 +342,7 @@ label {
   .sections {
     padding: 10px 20px;
   }
-  .item {
+  aside {
     position: fixed;
     top: 0;
     width: 100px;
@@ -352,9 +352,12 @@ label {
     display: block;
     padding: 20px;
     transition: 0.5s;
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
-  .item.active {
+  .item {
+    display: block;
+  }
+  aside.active {
     transform: translateX(0%);
   }
   .overlay {
@@ -379,5 +382,11 @@ label {
   #hamburger {
     display: inline-block;
     color: white;
+  }
+  .page {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 0;
+    overflow: hidden;
   }
 }
