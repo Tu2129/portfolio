@@ -15,21 +15,30 @@
         <header class="parent">
             <p class="mode">My Portfolio</p>
             <nav class="cone">
-                <!--<ul class="item">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#d1">Contact</a></li>
-                    <li><a href="#d2">Media</a></li>
-                    <li><a href="#">Work</a></li>
-                </ul>-->
+                <div class="hamburger">
+                    <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu">
+                        <path d="M4 5h16" />
+                        <path d="M4 12h16" />
+                        <path d="M4 19h16" />
+                    </svg>
+                </div>
+                <ul class="item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="#d1">Contact</a></li>-->
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
             </nav>
         </header>
-        <div class="insta">
-            <div class="gram">
+        <div class="hero">
+            <div class="hero-sec">
                 <p class="hello">Hello, it's me</p>
                 <h1 class="tunmi">Hi, I'm Tunmise</h1>
-                <h3 class="web">I'm a <span>Web Developer</span></h3>
-                <p class="small">I specialize in building responsive, modern and interactive website.</p>
+                <h2 class="web">I'm a <span>Front-End Developer</span></h2>
+                <p class="text">I specialize in building responsive, modern and interactive websites.</p>
                 <p class="mall">Let's turn your digital ideas into reality</p>
                 <a href="Majaro_Tunmise_CV.pdf" download id="download">Download CV</a>
                 <a href="https://wa.me/2348080392141" target="_blank" id="contact">Contact Me</a><br>
@@ -47,6 +56,52 @@
             <div class="img">
                 <img class="logo" src="coco.jpg" alt="My logo">
             </div>
+        </div>
+        <div class="sections">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I'm a Logistics and Supply Chain Management student at Lagos State University,
+                    self-teaching front-end web development on the side. I build responsive websites with
+                    HTML, CSS, and JavaScript — from e-commerce sites with real payment integration to
+                    interactive tools like calculators and note-taking apps. I care about clean UI,
+                    performance, and writing JavaScript that actually holds up when users click things
+                    in the wrong order.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="skill-lists">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                    <li>Supabase (auth & database)</li>
+                    <li>Paystack API Integration</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <h3>Hi7 Wears — E-commerce Site</h3>
+                    <p>A full clothing store built from scratch with cart, Paystack checkout,
+                        Supabase order storage, and delivery fee logic by state/LGA.</p>
+                    <a href="https://hi7-website.vercel.app" target="_blank" rel="noopener noreferral">Live Site</a>
+                    <a href="https://github.com/Tu2129/hi7" target="_blank" rel="noopener noreferral">Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Notes App</h3>
+                    <p>A JavaScript notes app with full edit-in-place functionality.</p>
+                    <a href="#" target="_blank" rel="noopener noreferral">Live Site</a>
+                    <a href="https://github.com/Tu2129/hi7" target="_blank" rel="noopener noreferral">Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>JS Calculator</h3>
+                    <p>A working calculator built with JavaScript.</p>
+                    <a href="https://calculator-eight-pied-75.vercel.app/" target="_blank" rel="noopener norefferal">Live Site</a>
+                    <a href="https://github.com/Tu2129/hi7" target="_blank" rel="noopener noreferral">Code</a>
+                </div>
+            </section>
         </div>
         <!--<div class="smel">
             <div class="ext">
@@ -71,6 +126,9 @@
             </div>
         </div>-->
     </div>
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
