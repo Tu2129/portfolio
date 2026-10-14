@@ -37,11 +37,7 @@ Here are some of the projects I've built while learning web development:
 - Learn backend development with Node.js.
 - Develop full-stack applications.
 
-🌐 Connect With Me
 
--GitHub: [Your GitHub Profile](YOUR_GITHUB_PROFILE_URL)
--Portfolio Website:\*\* [View My Portfolio](YOUR_PORTFOLIO_URL)
--LinkedIn:[Connect With Me](YOUR_LINKEDIN_URL)
 
 ---
 
