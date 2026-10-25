@@ -113,7 +113,7 @@ span {
   border-radius: 10px;
   border: 1px solid #000000;
   box-shadow: 0px 0px 5px 1px #4c1d95;
-  margin-top: 10rem;
+  margin: 10rem 1rem 0 1rem;
   padding: 10px;
   transition: 0.5s;
 }
@@ -388,4 +388,10 @@ label {
     margin: 0 0;
     overflow: hidden;
   }
+  #about,
+#skills,
+#projects {
+  margin: 10rem 0 0 0;
+  padding: 10px;
+}
 }

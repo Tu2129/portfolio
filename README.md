@@ -37,8 +37,6 @@ Here are some of the projects I've built while learning web development:
 - Learn backend development with Node.js.
 - Develop full-stack applications.
 
-
-
 ---
 
 I'm continuously learning, building, and improving one project at a time.🚀
