@@ -307,8 +307,21 @@ label {
   align-items: center;
   height: 50vh;
 }
-.loneee {
-  width:;
+.project-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+}
+.project-img {
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+}
+.mobile {
+  width: 150px;
+  height: auto;
 }
 .ext {
   display: flex;
@@ -389,9 +402,17 @@ label {
     overflow: hidden;
   }
   #about,
-#skills,
-#projects {
-  margin: 10rem 0 0 0;
-  padding: 10px;
-}
+  #skills,
+  #projects {
+    margin: 10rem 0 0 0;
+    padding: 10px;
+  }
+  .project-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+  }
 }
